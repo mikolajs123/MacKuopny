@@ -1,0 +1,34 @@
+{
+  "tailwindcss": {
+    "prefix": "tw-",
+    "parts": [
+      "base",
+      "components",
+      "utilities"
+    ]
+  },
+  "@quasar/icon-genie": {
+    "minify_dev": "zopfli",
+    "minify_build": "zopfli",
+    "cordova": {
+      "background_color": "#026b11",
+      "splashscreen_type": "generate"
+    },
+    "build_always": false,
+    "__internal": {
+      "dev": {
+        "spa": {
+          "iconHash": "65477ada7dd463e4e3c6e5856b5dc5a2"
+        }
+      },
+      "build": {
+        "pwa": {
+          "iconHash": "65477ada7dd463e4e3c6e5856b5dc5a2"
+        },
+        "spa": {
+          "iconHash": "65477ada7dd463e4e3c6e5856b5dc5a2"
+        }
+      }
+    }
+  }
+}
